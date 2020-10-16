@@ -1,19 +1,7 @@
 # Convertor
-//This program converts numbers from base one to base thirty-six .
-//It is also useful for fractional numbers.
 
-
-
-
-
-
-
-
-
-
-
-
-
+This program converts numbers from base one to base thirty-six .
+It is also useful for fractional numbers.
 
 
 package converter;
@@ -33,7 +21,7 @@ public class Main {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
         int sourceRadix = scanner.nextInt();
         String sourceNumber = scanner.next();
         int targetRadix = scanner.nextInt();
