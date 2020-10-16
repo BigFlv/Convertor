@@ -1,10 +1,29 @@
 # Convertor
 This program converts numbers from base one to base thirty-six .
+It is also useful for fractional numbers.
 
-
-package converter;
-
-
+        package converter;
+ 
+        import java.util.*;
+ 
+        public class Main {
+ 
+    public static void forDecimalNumber(int targetRadix, double number) {
+        for (int i = 0; i < 5; i++) {
+            double decimalDigit = number * targetRadix;
+            int finalNumber = (int) decimalDigit;
+            number = decimalDigit - finalNumber;
+            if (finalNumber > 9) {
+                System.out.print(Character.forDigit(finalNumber, 36));
+            } else {
+                System.out.print(finalNumber);
+            }
+        }
+    }
+    
+    public static void main(String[] args) {
+    
+        Scanner scanner = new Scanner(System.in);
         int sourceRadix = scanner.nextInt();
         String sourceNumber = scanner.next();
         int targetRadix = scanner.nextInt();
