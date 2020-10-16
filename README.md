@@ -9,6 +9,7 @@ It is also useful for fractional numbers.
         public class Main {
  
     public static void forDecimalNumber(int targetRadix, double number) {
+    
         for (int i = 0; i < 5; i++) {
             double decimalDigit = number * targetRadix;
             int finalNumber = (int) decimalDigit;
