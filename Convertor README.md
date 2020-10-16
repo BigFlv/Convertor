@@ -2,6 +2,20 @@
 //This program converts numbers from base one to base thirty-six .
 //It is also useful for fractional numbers.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 package converter;
 import java.util.*;
 public class Main {
