@@ -1,5 +1,6 @@
 # Convertor
-This program converts numbers from base one to base thirty-six .
+
+This program works with java and converts any numbers to begin from base one to base thirty-six..
 It is also useful for fractional numbers.
 
         package converter;
